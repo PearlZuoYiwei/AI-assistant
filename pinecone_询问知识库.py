@@ -3,7 +3,7 @@ from langchain.vectorstores import Chroma,Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 import pinecone
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 embeddings=OpenAIEmbeddings()
 pinecone.init(api_key='a4dfd6f5-79ce-438c-8628-855ef4d8480b',environment='us-west4-gcp-free')
